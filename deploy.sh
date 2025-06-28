@@ -25,7 +25,7 @@ else
     export GCP_PROJECT_ID="$GCP_PROJECT_ID_INPUT"
 fi
 
-export GCP_REGION="${TF_VAR_gcp_region:-us-west2}"
+export GCP_REGION="${TF_VAR_gcp_region:-northamerica-northeast2}"
 export AR_REPO_NAME="${TF_VAR_artifact_repo_name:-n8n-repo}"
 export SERVICE_NAME="${TF_VAR_cloud_run_service_name:-n8n}"
 
